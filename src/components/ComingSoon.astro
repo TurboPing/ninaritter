@@ -38,7 +38,6 @@
     height: 100vh;
   }
   body {
-    @extend %font-settings;
     background: linear-gradient(45deg, black, black);
     transform-style: preserve-3d;
     transform: perspective($perspective);
@@ -50,6 +49,7 @@
 
   /* // === Menu <ul> ===== */
   .Menu-list {
+    @extend %font-settings;
     font-size: $font-size;
     line-height: 1.2;
     text-transform: uppercase;
