@@ -2,85 +2,56 @@
 import { HeroParallax } from "../ui/hero-parallax";
 
 export function HeroParallaxDemo() {
-  return <HeroParallax products={products} />;
+  return <HeroParallax images={products} />;
 }
 export const products = [
-  {
-    title: "Moonbeam",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
-  },
-  {
-    title: "Cursor",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-  },
-  {
-    title: "Rogue",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-  },
-
-  {
-    title: "Algochurn",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-  },
-  {
-    title: "Aceternity UI",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-  },
-];
+  'https://ninaritter.li/landing-page/JLA05828-2 (1).webp',
+  'https://ninaritter.li/landing-page/JLA05786-2 (1).webp',
+  'https://ninaritter.li/landing-page/JLA05665-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1001176-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1001159-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1001144-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1001120-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1000975-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1000966-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1000953-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1000943-2 (1).webp',
+  'https://ninaritter.li/landing-page/J1000903-2 (1).webp',
+  'https://ninaritter.li/landing-page/JLA05856.webp',
+  'https://ninaritter.li/landing-page/JLA05887.webp',
+  'https://ninaritter.li/landing-page/J1000202.webp',
+  'https://ninaritter.li/landing-page/J1000352pp.webp',
+  'https://ninaritter.li/landing-page/JLA05175-2.webp',
+  'https://ninaritter.li/landing-page/JLA05318-2.webp',
+  'https://ninaritter.li/landing-page/J1000301.webp',
+  'https://ninaritter.li/landing-page/J1000314.webp',
+  'https://ninaritter.li/landing-page/J1000442cu.webp',
+  'https://ninaritter.li/landing-page/J1000449-2.webp',
+  'https://ninaritter.li/landing-page/J1000467 2-2.webp',
+  'https://ninaritter.li/landing-page/J1000617-2.webp',
+  'https://ninaritter.li/landing-page/J1000667.webp',
+  'https://ninaritter.li/landing-page/J1000679-2.webp',
+  'https://ninaritter.li/landing-page/JLA01524-2.webp',
+  'https://ninaritter.li/landing-page/JLA02731-2.webp',
+  'https://ninaritter.li/landing-page/JLA05250-2.webp',
+  'https://ninaritter.li/landing-page/JLA05262-2.webp',
+  'https://ninaritter.li/landing-page/JLA05480-2.webp',
+  'https://ninaritter.li/landing-page/Q1000288-2.webp',
+  'https://ninaritter.li/landing-page/JLA04120-2.webp',
+  'https://ninaritter.li/landing-page/JLA04153-2.webp',
+  'https://ninaritter.li/landing-page/JLA04590-2.webp',
+  'https://ninaritter.li/landing-page/A2240199-9418-4962-A45C-D362E4CAE03E.jpegkopie.webp',
+  'https://ninaritter.li/landing-page/1698136243084.webp',
+  'https://ninaritter.li/landing-page/1698136243092.webp',
+  'https://ninaritter.li/landing-page/WhatsApp Image 2023-10-23 at 4.38.09 PM.webp',
+  'https://ninaritter.li/landing-page/JLA02676-2.webp',
+  'https://ninaritter.li/landing-page/JLA02725-2.webp',
+  'https://ninaritter.li/landing-page/J1000646.webp',
+  'https://ninaritter.li/landing-page/JLA06133.webp',
+  'https://ninaritter.li/landing-page/JLA06203.webp',
+  'https://ninaritter.li/landing-page/1693311974109.webp',
+  'https://ninaritter.li/landing-page/IMG-20220408-WA0025.webp',
+  'https://ninaritter.li/landing-page/-5956213483513165746_121.webp',
+  'https://ninaritter.li/landing-page/1664724688695.webp',
+  'https://ninaritter.li/landing-page/1664724687665.webp',
+]
