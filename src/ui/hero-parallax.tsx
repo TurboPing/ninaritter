@@ -50,7 +50,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="py-[50dvh] overflow-hidden antialiased relative flex flex-col  [perspective:1000px] [transform-style:preserve-3d]"
+      className="overflow-hidden antialiased relative flex flex-col  [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -60,9 +60,9 @@ export const HeroParallax = ({
           translateY,
           opacity,
         }}
-        className=""
+        className="py-[50dvh]"
       >
-        {rows.splice(0, 5).map((row, i) => (
+        {rows.map((row, i) => (
           <motion.div className={
             `flex space-x-20 mb-20 ${ i%2===0 ? 'flex-row-reverse space-x-reverse' : 'flex-row' }`
           }>
